@@ -6,10 +6,10 @@ function About() {
     <>
       <div className="flex flex-col w-[100%] bg-gradient-to-r from-violet-900 to-fuchsia-900 about ">
         <div className="w-[100%] h-[20vh] flex flex-col items-center justify-center">
-          <div className="inline-block text-white text-[50px] font-[800]">
+          <div className="inline-block text-white text-[40px] font-[800]">
             <span>About</span>
           </div>
-          <div className="inline-block text-[30px] font-[600] text-violet-500">
+          <div className="inline-block text-[25px] font-[600] text-violet-500">
             <span>--Who I Am--</span>
           </div>
         </div>
@@ -23,24 +23,24 @@ function About() {
           max-md:w-full"
           >
             <div
-              className="w-[540px] h-[500px] overflow-hidden flex bg-gradient-to-r from-violet-500
-             to-fuchsia-500  max-lg:w-[450px] max-lg:h-[370px] imgbg max-md:h-[370px]"
+              className="w-[450px] h-[400px] overflow-hidden flex bg-gradient-to-r from-violet-500
+             to-fuchsia-500  max-lg:w-[400px] max-lg:h-[350px] imgbg max-md:h-[350px]"
             >
-              <div className="w-[500px]  bg-[url('./pro.png')] bg-cover flex  bg-no-repeat "></div>
+              <div className="w-[450px]  bg-[url('./pro.png')] bg-cover flex  bg-no-repeat "></div>
             </div>
           </div>
 
           <div className="w-[60%] rounded-[25px] bg-[#6d1c95] p-[20px]  flex flex-col justify-evenly max-md:w-full max-md:p-[20px]">
             <div
-              className="  text-[30px] font-sans font-semibold 
-            max-md:text-[30px] "
+              className="  text-[22px] font-sans font-semibold 
+            max-md:text-[22px] "
             >
               <span className="text-white">
                 I'm Sharan B and I'm a{" "}
                 <span className="text-violet-400">FrontEnd Developer</span>
               </span>
             </div>
-            <div className="flex w-[100%] pt-[50px] text-justify text-[20px] max-md:text-[18px] font-light ">
+            <div className="flex w-[100%] pt-[40px] text-justify text-[16px] max-md:text-[18px] font-light ">
               <p className="text-white">
                 I'm Sharan B, a computer science engineer from Kanyakumari,
                 India,I did My Bachelor's degree in Computer Science and
@@ -60,7 +60,7 @@ function About() {
                   </div> */}
 
               <button
-                class="transition ease-in-out delay-150 w-[200px] h-[60px] text-[20px] 
+                class="transition ease-in-out delay-150 w-[150px] h-[50px] text-[15px] 
               font-semibold text-white rounded-[15px] mt-[30px] bg-fuchsia-500  hover:-translate-y-1 hover:scale-110
                hover:bg-green-500 duration-300 ... max-md:w-[150px] max-md:h-[50px]"
               >
@@ -69,7 +69,7 @@ function About() {
                 </a>
               </button>
               <button
-                class="transition ease-in-out delay-150 w-[200px] h-[60px] text-[20px] font-semibold text-white 
+                class="transition ease-in-out delay-150 w-[150px] h-[50px] text-[15px] font-semibold text-white 
               rounded-[15px] mt-[30px] ml-[30px] bg-violet-500 hover:-translate-y-1 hover:scale-110
                hover:bg-indigo-500 duration-300 ... max-md:w-[150px] max-md:h-[50px]"
               >

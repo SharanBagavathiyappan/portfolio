@@ -30,7 +30,7 @@ body {
 .navList a {
  
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   
   color: white;
   /* cursor: pointer; */
@@ -42,12 +42,12 @@ body {
     /* margin-top: 20px; */
 }
 .navList  .fa-bars{
-    font-size: 40px;
+    font-size: 30px;
     display: none;
 }
 .logo {
   color: #fff;
-  font-size: 40px;
+  font-size: 30px;
 }
 .subConatiner {
   width: 100%;
@@ -71,7 +71,7 @@ body {
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 60px;
+  font-size:45px;
   color: #fff;
   text-transform: uppercase;
   animation: flip 2s infinite;
@@ -89,7 +89,7 @@ body {
 .Hii {
   width: 100%;
   color: white;
-  font-size: 50px;
+  font-size:35px;
 }
 .waviy .b {
   margin-left: 10px;
@@ -98,14 +98,14 @@ body {
 .name {
   display: flex;
   width: 100%;
-  font-size: 80px;
+  font-size:65px;
   color: white;
   font-weight: 800;
 }
 
 .name2 {
   width: 100%;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 .cloneNavLink{
@@ -204,15 +204,13 @@ body {
         position: absolute;
         top: 0%;
         right: 0%;
-        background-color:rgba(65, 24, 101, 0.678);
+        background-color:#050636;
         /* margin-top: 100px; */
         width: 200px;
         height: 100vh;
         z-index: 1;
       }
-      .cloneNavLink ul {
-        /* margin-top: 100px; */
-      }
+      
 
       .cloneNavLink ul li{
         display:inline-block;
@@ -223,7 +221,7 @@ body {
         /* margin-top: 20px; */
     }
     .navList  .fa-bars{
-      font-size: 40px;
+      font-size: 30px;
       display: flex;
       color: grey;
       cursor: pointer;

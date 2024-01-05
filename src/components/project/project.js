@@ -39,23 +39,23 @@ const Project = () => {
   };
   return (
     <>
-      <div className="w-[100%] h-[100vh]  p-[20px] bg-gradient-to-r  from-violet-900 to-fuchsia-900 project
+      <div className="w-[100%] h-[100vh]  p-[15px] bg-gradient-to-r  from-violet-900 to-fuchsia-900 project
        flex flex-col items-center justify-center max-xl:h-auto ">
         
-        <span className="text-white inline-block text-[50px] font-[800] text-center">
+        <span className="text-white inline-block text-[45px] font-[800] text-center">
           Projects
         </span>
         <div
-          className="w-[100%] h-[80vh] max-lg:h-auto flex flex-col  items-center justify-around
+          className="w-[100%] h-[90vh] max-lg:h-auto flex flex-col  items-center justify-around
 "
         >
-          <div className="w-[70%] child h-auto p-6 flex flex-col items-center pt-[40px] bg-[#6d1c95]
-           shadow-2xl rounded-[25px] relative max-[600px]:p-2 max-[600px]:w-[400px]  projectdiv1 ">
+          <div className="w-[65%] child h-auto p-3 flex flex-col items-center pt-[35px] bg-[#6d1c95]
+           shadow-2xl rounded-[20px] relative max-[600px]:p-2 max-[600px]:w-[350px]  projectdiv1 ">
             <div >
-              <span className="font-bold text-[25px] text-white"> E-Bike RideRevolution</span>
+              <span className="font-bold text-[20px] text-white"> E-Bike RideRevolution</span>
             </div>
-            <div className=" w-[80%] p-[20px] max-[600px]:w-[100%]">
-              <span className="text-[18px] text-justify text-white"> Developed a static and responsive e-bike website with user-friendly navigation, product listings, and newsletter signup
+            <div className=" w-[80%] p-[15px] max-[600px]:w-[100%]">
+              <span className="text-[16px] text-justify text-white"> Developed a static and responsive e-bike website with user-friendly navigation, product listings, and newsletter signup
 for information on e-bikes and cycling accessories.
 Created a visually appealing and responsive design for the website, ensuring a seamless user experience on various
 devices and screen sizes</span>
@@ -63,13 +63,13 @@ devices and screen sizes</span>
             
             
             <div className="w-[20%] flex items-center justify-around max-[1250px]:w-[50%] max-[550px]:w-[100%]">
-               <div  className="w-[60px] h-[60px]  rounded-[50%]
+               <div  className="w-[50px] h-[50px]  rounded-[50%]
                    bg-white flex items-center justify-center hover:bg-green-600" >
-                 <a href="https://sharansharu00.github.io/CycleProject/"><span className="text-[53px] text-green-600 hover:text-black"><GithubOutlined /></span></a>
+                 <a href="https://sharansharu00.github.io/CycleProject/"><span className="text-[43px] text-green-600 hover:text-black"><GithubOutlined /></span></a>
               </div>
               <div
-                 className="w-[60px] h-[60px]  rounded-[50%]
-                   bg-white text-fuchsia-600  flex justify-center items-center font-bold text-[40px] cursor-pointer"
+                 className="w-[50px] h-[50px]  rounded-[50%]
+                   bg-white text-fuchsia-600  flex justify-center items-center font-bold text-[35px] cursor-pointer"
                 onClick={() => showModal()}
               >
                 <FundViewOutlined />
@@ -129,25 +129,25 @@ devices and screen sizes</span>
             </div>
           </Modal>
 
-          <div className="w-[70%] child h-auto p-6  flex flex-col items-center pt-[40px]  bg-[#6d1c95]
-           shadow-2xl rounded-[25px]  max-[1269px]:mt-[50px] projectdiv2 max-[600px]:p-2 max-[600px]:w-[400px]">
+          <div className="w-[65%] child h-auto p-3  flex flex-col items-center pt-[35px]  bg-[#6d1c95]
+           shadow-2xl rounded-[25px]  max-[1269px]:mt-[50px] projectdiv2 max-[600px]:p-2 max-[600px]:w-[350px]">
 
           <div >
-              <span className="font-bold text-[25px] text-white">Simple Shopping Cart</span>
+              <span className="font-bold text-[20px] text-white">Simple Shopping Cart</span>
             </div>
-          <div className="w-[80%] p-[20px] max-[600px]:w-[100%]">
-              <span className="text-[18px] text-white"> Developed a sample e-commerce website using React.js, demonstrating skills in component-based architecture and
+          <div className="w-[80%] p-[15px] max-[600px]:w-[100%]">
+              <span className="text-[16px] text-white"> Developed a sample e-commerce website using React.js, demonstrating skills in component-based architecture and
 routing.Implemented shopping cart functionality, product listing, and product details pages.Utilized React Router for handling
 page navigation</span>
             </div>
             <div className="w-[20%] max-[1250px]:w-[50%] flex items-center justify-around">
-            <div className="w-[60px] h-[60px] hover:bg-green-600  rounded-[50%]
+            <div className="w-[50px] h-[50px] hover:bg-green-600  rounded-[50%]
                    bg-white flex items-center justify-center">
-              <a href=" https://github.com/Sharansharu00/SimpleEcommerceWebsite"><span className="text-[52px] text-green-600 hover:text-black"><GithubOutlined /></span></a>
+              <a href=" https://github.com/Sharansharu00/SimpleEcommerceWebsite"><span className="text-[43px] text-green-600 hover:text-black"><GithubOutlined /></span></a>
             </div>
             <div
-              className="w-[60px] h-[60px]  rounded-[50%]
-               bg-white text-fuchsia-600  flex justify-center items-center font-bold text-[40px] cursor-pointer"
+              className="w-[50px] h-[50px]  rounded-[50%]
+               bg-white text-fuchsia-600  flex justify-center items-center font-bold text-[35px] cursor-pointer"
                onClick={() => showModal2()}
             >
               <FundViewOutlined />
