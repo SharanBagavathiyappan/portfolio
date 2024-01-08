@@ -46,8 +46,11 @@ body {
     display: none;
 }
 .logo {
-  color: #fff;
-  font-size: 30px;
+  background-image: url("2logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* border-radius: 50%; */
+  /* font-size: 30px; */
 }
 .subConatiner {
   width: 100%;

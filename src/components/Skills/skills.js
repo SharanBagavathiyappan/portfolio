@@ -16,7 +16,7 @@ function Skills() {
           <div className="w-[350px] h-[370px] bg-slate-300 flex flex-col items-center justify-evenly 
           hover:scale-110 hover:transition-all hover:ease-out rounded-[25px] 
           max-[420px]:h-[350px] max-[420px]:mt-[30px] max-sm:mt-[30px] ">
-            <div className="w-[100px] h-[100px] mt-4 rounded-[50%] bg-white flex items-center justify-evenly max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
+            <div className="w-[100px] h-[120px] mt-4 rounded-[50%] bg-white flex items-center justify-evenly max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
               <i className="fa-brands fa-html5 text-[70px] text-[#ff5722] max-[420px]:text-[70px]"></i>
             </div>
             <span className="text-[18px] font-bold font-sans ]">HTML</span>
@@ -36,7 +36,7 @@ function Skills() {
 
           <div className="w-[350px] h-[370px] bg-slate-300 flex flex-col items-center justify-evenly hover:scale-110 hover:transition-all
            hover:ease-out rounded-[25px] max-[420px]:h-[350px] max-[420px]:mt-[30px] max-[862px]:mt-[30px] max-sm:mt-[30px]">
-            <div className="w-[100px] h-[100px] rounded-[50%] mt-4 bg-white flex items-center justify-evenly  max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
+            <div className="w-[100px] h-[120px] rounded-[50%] mt-4 bg-white flex items-center justify-evenly  max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
               <i class="fa-brands fa-css3-alt text-[70px] text-[#214ce5] max-[420px]:text-[70px] "></i>
             </div>
             <span className="text-[18px] font-bold font-sans"> CSS</span>
@@ -56,7 +56,7 @@ function Skills() {
           <div className="w-[350px] h-[370px] bg-slate-300 flex flex-col items-center 
           justify-evenly hover:scale-110 hover:transition-all hover:ease-out rounded-[25px]  
           max-[420px]:h-[350px] max-[420px]:mt-[30px] max-sm:mt-[30px] max-[1257px]:mt-[30px]">
-            <div className="w-[100px] h-[100px] rounded-[50%] mt-4 bg-white flex items-center justify-evenly max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
+            <div className="w-[100px] h-[150px] rounded-[50%] mt-4 bg-white flex items-center justify-evenly max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
               <i class="fa-brands fa-js text-[60px] rounded-[10px] text-yellow-400  max-[420px]:text-[70px]"></i>
             </div>
             <span className="text-[18px] font-bold font-sans">JAVASCRIPT</span>
@@ -71,9 +71,9 @@ function Skills() {
           </div>
 
           <div className="w-[350px] h-[370px] bg-slate-300 flex flex-col items-center 
-          justify-evenly hover:scale-110 hover:transition-all hover:ease-out rounded-[25px]
+            justify-evenly hover:scale-110 hover:transition-all hover:ease-out rounded-[25px]
             max-[420px]:h-[350px]  max-[420px]:mt-[30px] max-sm:mt-[30px] max-2xl:mt-[30px]">
-            <div className="w-[100px] h-[100px] rounded-[50%] mt-4 bg-white flex items-center justify-evenly  max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
+            <div className="w-[100px] h-[150px] rounded-[50%] mt-4 bg-white flex items-center justify-evenly  max-[420px]:h-[120px] max-[420px]:w-[120px] max-[420px]:mt-[15px]">
               <i class="fa-brands fa-react text-[70px] text-[#6fbefa] max-[420px]:text-[70px]"></i>
             </div>
             <span className="text-[18px] font-bold font-sans">REACT JS</span>
@@ -87,6 +87,7 @@ function Skills() {
               </span>
             </div>
           </div>
+          
         </div>
       </div>
     </>

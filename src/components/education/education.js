@@ -19,33 +19,32 @@ const Education = () => {
             <div className="w-[95%] h-[55%] rounded-[25px] clgImg"></div>
 
             <div className="w-[95%] h-[40%] ">
-              <p className="text-[18px] text-center font-mono max-xl:text-[15px] max-xl:font-mono max-xl:font-semibold">
-                Amrita College of Engineering & Technology, formerly Sun College
-                of Engineering, is an engineering college located in Nagercoil
+              <div className="text-[16px] p-3 font-bold text-center font-mono max-xl:text-[15px] max-xl:font-mono max-xl:font-semibold">
+                Amrita College of Engineering & Technology,is an engineering college located in Nagercoil
                 in Kanyakumari district, Tamil Nadu, India. 
                 <div className="mt-2">
                   CGPA:<span>82%</span>
                 </div>
-              </p>
+              </div>
+              
             </div>
 
           </div>
 
           <div className="w-[25%] h-[60vh] bg-slate-200 flex flex-col items-center justify-evenly hover:scale-110 hover:transition-all hover:ease-out rounded-[25px]
-          max-xl:w-[350px] max-xl:h-[350px] max-xl:mt-[50px] max-sm:w-[400px] max-sm:h-[350px]">
+          max-xl:w-[350px] max-xl:h-[350px] max-xl:mt-[50px] max-sm:w-[350px] max-sm:h-[350px]">
 
             <div className="w-[95%] h-[55%] rounded-[25px] schImg"></div>
 
 
-            <div className="w-[95%] h-[40%]">
-              <p className="text-[18px] text-center font-mono max-xl:text-[15px] max-xl:font-mono max-xl:font-semibold">
-                Amrita College of Engineering & Technology, formerly Sun College
-                of Engineering, is an engineering college located in Nagercoil
+            <div className="w-[95%] h-[40%] ">
+              <div className="text-[16px] p-2 font-bold text-center font-mono max-xl:text-[15px] max-xl:font-mono max-xl:font-semibold">
+                Sir.C.P.Memorial Govt.Hr.Sec.School,is a Government School located in Boothapandy
                 in Kanyakumari district, Tamil Nadu, India.  
                 <div className="mt-2">
-                  CGPA:<span>82%</span>
+                  Hsc:<span>58%</span>
                 </div>
-              </p>
+              </div>
             </div>
 
           </div>
@@ -55,15 +54,14 @@ const Education = () => {
 
             <div className="w-[95%] h-[55%] rounded-[25px] sch2Img"></div>
 
-            <div className="w-[95%] h-[40%] ">
-              <p className="text-[18px] text-center font-mono max-xl:text-[15px] max-xl:font-mono max-xl:font-semibold">
-                Amrita College of Engineering & Technology, formerly Sun College
-                of Engineering, is an engineering college located in Nagercoil
+            <div className="w-[95%] h-[40%]">
+              <div className="text-[16px] p-2 font-bold text-center font-mono max-xl:text-[15px] max-xl:font-mono max-xl:font-semibold">
+                Carol Matriculation School,is a private school located in Thuvarancadu
                 in Kanyakumari district, Tamil Nadu, India.  
                 <div className="mt-2">
-                  CGPA:<span>82%</span>
+                  SSLC:<span>91%</span>
                 </div>
-              </p>
+              </div>
             </div>
 
           </div>

@@ -30,7 +30,7 @@ function HomePage() {
           } z-10`}
         >
           <div className={`logo`}>
-            <pre className={`${scrolled ? "text-black" : ""}`}>Portfolio</pre>
+            <div className={`${scrolled ? "text-black" : ""} w-[250px] h-[50px]`}></div>
           </div>
           <div className="navList">
             <div>
