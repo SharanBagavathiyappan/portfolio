@@ -65,7 +65,7 @@ devices and screen sizes</span>
             <div className="w-[20%] flex items-center justify-around max-[1250px]:w-[50%] max-[550px]:w-[100%]">
                <div  className="w-[50px] h-[50px]  rounded-[50%]
                    bg-white flex items-center justify-center hover:bg-green-600" >
-                 <a href="https://sharansharu00.github.io/CycleProject/"><span className="text-[43px] text-green-600 hover:text-black"><GithubOutlined /></span></a>
+                 <a href="https://github.com/Sharansharu00/CycleProject"><span className="text-[43px] text-green-600 hover:text-black"><GithubOutlined /></span></a>
               </div>
               <div
                  className="w-[50px] h-[50px]  rounded-[50%]
@@ -86,9 +86,9 @@ devices and screen sizes</span>
             onCancel={handleCancel}
             footer={[]}
             width={1000}
-          
+            className="model"
           >
-            <div className=" ">
+            <div >
               <Carousel autoplay className="flex flex-col">
                 <div>
                   <div className="h-[500px]">
