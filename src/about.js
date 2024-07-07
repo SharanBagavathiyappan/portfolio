@@ -23,10 +23,11 @@ function About() {
           max-md:w-full"
           >
             <div
-              className="w-[450px] h-[400px] overflow-hidden flex bg-gradient-to-r from-violet-500
-             to-fuchsia-500  max-lg:w-[400px] max-lg:h-[350px] imgbg max-md:h-[350px]"
+              className="w-[450px] h-[400px] overflow-hidden flex  bg-gradient-to-r from-violet-500
+             to-fuchsia-500  max-lg:w-[400px] max-lg:h-[350px] imgbg max-md:h-[350px]  "
             >
-              <div className="w-[450px]  bg-[url('./pro.png')] bg-cover flex  bg-no-repeat "></div>
+              <div className="w-[450px]   bg-[url('./sharan.png')] bg-cover  flex  bg-no-repeat ">
+              </div>
             </div>
           </div>
 
